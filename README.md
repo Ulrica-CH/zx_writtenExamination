@@ -1,19 +1,8 @@
-# demo
-
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+登录页面 src/views/Home/index.vue
+![](https://cdn.michstabe.cn/blog/202302251101116.png)
+树形组件 src/components/Tree
+![](https://cdn.michstabe.cn/blog/202302251102163.png)
+Echarts src/components/Echarts
+![](https://cdn.michstabe.cn/blog/202302251102022.png)
+jsonToTable src/utils
+![](https://cdn.michstabe.cn/blog/202302251059804.png)
