@@ -6,6 +6,7 @@ function checkRange() {
   let rangeArr = [],
     rangeResArr = [],
     isRange = false;
+  if (ranges.length === 1) return "ERROR";
   for (const range of ranges) {
     let [left, right] = range;
     if (left === 2) {

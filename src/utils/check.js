@@ -15,6 +15,8 @@ function checkRange() {
 
   // 对于输入的是数组情况处理
   let isRange = false;
+  // 判断输入一个范围 如只输入(8,5) 为"ERROR";
+  if (ranges.length === 1) return "ERROR";
   for (const range of ranges) {
     let [left, right] = range;
 
@@ -86,3 +88,5 @@ console.log(checkRange([4, 5], [3, 5])); // ERROR
 console.log(checkRange([4, 5], [2, [5, 10]], [8, 10], [3, 10])); // "OK"
 console.log(checkRange([6, 5], [2, [5, 10]], [8, 10], [3, 10])); // ERROR
 console.log(checkRange([4, 5], [2, [5, 10]], [2, [6, 8]], [3, 10])); // ERROR
+
+console.log(checkRange([8, 5])); // ERROR
